@@ -82,7 +82,7 @@
         UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((kScreenwidth - 100)/2, kScreenheight*0.8, 100, 40)];
         label.backgroundColor = [UIColor blueColor];
         label.layer.cornerRadius = 10;
-        label.text = @"开始使用";
+        label.text = @"开启爱的旅程";
         label.textColor = [UIColor whiteColor];
         label.textAlignment = NSTextAlignmentCenter;
         [self.view addSubview:label];
