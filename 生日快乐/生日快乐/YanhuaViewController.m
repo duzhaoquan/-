@@ -10,6 +10,7 @@
 #import "NotifacationViewController.h"
 #import "MainViewController.h"
 
+#import <AVFoundation/AVFoundation.h>
 
 @interface YanhuaViewController (){
     NSInteger _index;
@@ -17,7 +18,7 @@
     
 }
 @property (nonatomic, strong)CAEmitterLayer * emitterLayer;
-
+@property (nonatomic,strong)AVPlayer *avPlayer;
 
 @end
 
@@ -40,6 +41,17 @@
     [self timeAction:nil];
     [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(timeAction:) userInfo:nil repeats:YES];
     
+    
+    NSString* path = [[NSBundle mainBundle]pathForResource:@"477354.mp3" ofType:nil
+                      ];
+    
+    
+    NSURL *url = [NSURL fileURLWithPath
+                  :path];
+    _avPlayer = [[AVPlayer alloc]initWithURL:url];
+    
+    
+    [_avPlayer play];
     
 }
 
@@ -80,7 +92,7 @@
     if (_index >= _strings.count) {
         [timer invalidate];
         
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((kScreenwidth - 100)/2, kScreenheight*0.8, 100, 40)];
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((kScreenwidth - 120)/2, kScreenheight*0.8, 120, 40)];
         label.backgroundColor = [UIColor blueColor];
         label.layer.cornerRadius = 10;
         label.text = @"开启爱的旅程";

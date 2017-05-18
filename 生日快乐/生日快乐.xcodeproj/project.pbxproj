@@ -18,6 +18,7 @@
 		5B13ADBE1DD4586B0038AAF6 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B13ADBD1DD4586B0038AAF6 /* UserNotifications.framework */; };
 		5B13ADC01DD4587E0038AAF6 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B13ADBF1DD4587E0038AAF6 /* libresolv.tbd */; };
 		5B3B19AC1E88FDA0000AA9E4 /* AppCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B19AB1E88FDA0000AA9E4 /* AppCache.m */; };
+		5B6C65A61ECDA0DA00600029 /* 477354.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C65A51ECDA0DA00600029 /* 477354.mp3 */; };
 		5B77E8271DD2C4B3008C2D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B77E8261DD2C4B3008C2D55 /* main.m */; };
 		5B77E82A1DD2C4B4008C2D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B77E8291DD2C4B4008C2D55 /* AppDelegate.m */; };
 		5B77E82D1DD2C4B4008C2D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B77E82C1DD2C4B4008C2D55 /* ViewController.m */; };
@@ -70,6 +71,7 @@
 		5B13ADC11DD4598F0038AAF6 /* 生日快乐.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "生日快乐.entitlements"; sourceTree = "<group>"; };
 		5B3B19AA1E88FDA0000AA9E4 /* AppCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCache.h; sourceTree = "<group>"; };
 		5B3B19AB1E88FDA0000AA9E4 /* AppCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCache.m; sourceTree = "<group>"; };
+		5B6C65A51ECDA0DA00600029 /* 477354.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 477354.mp3; sourceTree = "<group>"; };
 		5B77E8221DD2C4B3008C2D55 /* 生日快乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生日快乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B77E8261DD2C4B3008C2D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B77E8281DD2C4B3008C2D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		5B3B19A81E88FCD0000AA9E4 /* 烟花动画 */ = {
 			isa = PBXGroup;
 			children = (
+				5B6C65A51ECDA0DA00600029 /* 477354.mp3 */,
 				5B77E83C1DD2C512008C2D55 /* YanhuaViewController.h */,
 				5B77E83D1DD2C512008C2D55 /* YanhuaViewController.m */,
 				5B77E83F1DD2C56C008C2D55 /* YQAnimationLayer.h */,
@@ -358,6 +361,7 @@
 				5BCA417B1DD9C385009D0374 /* Icon-60.png in Resources */,
 				5BCA417C1DD9C385009D0374 /* Icon-60@2x.png in Resources */,
 				5B77E8471DD2CE43008C2D55 /* fire.png in Resources */,
+				5B6C65A61ECDA0DA00600029 /* 477354.mp3 in Resources */,
 				5B91DDE51EAF2A6A00AFEAD4 /* TextViewController.xib in Resources */,
 				5B77E8321DD2C4B4008C2D55 /* Assets.xcassets in Resources */,
 				5B91DDDB1EAF012500AFEAD4 /* promotion@2x.png in Resources */,
