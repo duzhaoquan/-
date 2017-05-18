@@ -76,6 +76,7 @@
     
     _index++;
     
+    //循环
     if (_index >= _strings.count) {
         [timer invalidate];
         
@@ -90,13 +91,12 @@
         label.userInteractionEnabled = YES;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
         [label addGestureRecognizer:tap];
-        
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             label.hidden = NO;
         });
 
     }
-    
+
 }
 
 -(void)tapAction:(UITapGestureRecognizer*)tap{
